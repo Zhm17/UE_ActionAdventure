@@ -1,9 +1,8 @@
-# Ephemeral Cube Unreal Engine Test Instructions
+# Unreal Engine Test
 
-The goal of this project is to create a small game using Unreal Engine 4.27.2. Please add notes to `notes.md` to provide context around your design decisions. This is an open-ended project, so feel free to use `notes.md` to explain the scope that you have chosen for your project.
+The goal of this project is to create a small game using Unreal Engine 4.27.2. Adding notes to `notes.md` to provide context around your design decisions.
 
-
-## Must-have requirements
+## Features
 
 - 3rd person camera
 - Basic Collectible System (Coins)
@@ -18,15 +17,3 @@ The goal of this project is to create a small game using Unreal Engine 4.27.2. P
 - Goal Mechanism
 	- Objective: Once the player crosses the door and reaches the end goal. The game is over.
 	- Details: Display “Thank you for playing.” And loop back to the start of the game.
-
-## Non-requirements
-
-- We don’t need any menus or splash screens.
-- No need to add sound effects or particle effects.
-- No need to add any other Meshes, Materials, Textures, Sounds, etc.
-
-## Notes
-
-A sample project `ECDevTest` base is provided as convenience, but feel free to change anything about it or discard it. Just make sure to have instructions in `notes.md` for how to set up and run your project.
-
-Multiple props have been included as part of the base project inside `./Content/Platformer/`
